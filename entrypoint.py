@@ -196,6 +196,7 @@ def main(
         presence_penalty=presence_penalty,
         prompt_chunk_size=diff_chunk_size
     )
+    logger.debug(f"Diff: {diff}")
     logger.debug(f"Summarized review: {summarized_review}")
     logger.debug(f"Chunked reviews: {chunked_reviews}")
 
